@@ -1,5 +1,12 @@
 terraform {
 
+      cloud {
+    organization = "marc"
+
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  } 
  
 
   required_providers {
